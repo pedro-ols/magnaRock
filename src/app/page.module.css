@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 8.3rem;
+    background-color: blue;
+    /* background-color: var(--background-dark-grey); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: fixed;
+
+    .headerLogo{
+        width: 5rem;
+        height: 5rem;
+        background-color: white;
+    }
+    .navContainer{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        .navItem{
+            .navText{
+                font-size: 2.8rem;
+                color: var(--text-color);
+                transition: color 0.3s ease;
+            }
+        }
+    }
+}
+.homeHeroSection{
+    width: 100%;
+    height: 40rem;
+    background-color: red;
+}
