@@ -15,27 +15,29 @@
     border-bottom-right-radius: 30px;
     position: fixed;
 
-    .headerLogo{
-        width: 5rem;
-        height: 5rem;
-        background-color: white;
-    }
-    .navContainer{
-        display: flex;
-        align-items: center;
-        gap: 2rem;
+}
+.headerLogo{
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 
-        .navItem{
-            .navText{
-                font-size: 2.8rem;
-                color: var(--text-color);
-                transition: color 0.3s ease;
-            }
-        }
-    }
+}
+.navText{
+    font-size: 2.8rem;
+    color: var(--text-color);
+    transition: color 0.3s ease;
 }
 .homeHeroSection{
     width: 100%;
     height: 40rem;
     background-color: red;
+    padding-top: 50%;
+}
+.introducingBanner{
+
 }
