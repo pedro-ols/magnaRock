@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 8.3rem;
+    background-color: var(--background-dark-grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: fixed;
+
+}
+.headerLogo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerLogoImage{
+    width: 100%;
+    height: auto;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navText{
+    font-size: 2.8rem;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
