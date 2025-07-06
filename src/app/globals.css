@@ -16,6 +16,7 @@
 
 :root {
   --background-dark-grey: #1b1b1f;
+  --background-dark-grey-rgb: 27, 27, 31;
   --background-clean-grey: #252525;
   --text-color: #f0f0f0;
 }
