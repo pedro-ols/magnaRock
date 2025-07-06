@@ -14,10 +14,16 @@ export default function Home() {
         </nav>
       </header>
       <div className={styles.homeHeroSection}>
-        <div className={styles.introducingBanner}>
-          <img src="#" alt="Logo" className={styles.bannerLogoImage}/>
-          <h1 style={{ color: "var(--text-color)", opacity: "80%" }}>Conheça a </h1>
-          <h1 style={{ color: "var(--text-color)" }}>Magnarock</h1>
+        <div className={styles.bannersContainer}>
+          <div className={styles.introducingBanner}>
+            <img src="#" alt="Logo" className={styles.bannerLogoImage} />
+            <div className={styles.bannerTitle}>
+              <h1 style={{ color: "var(--text-color)", opacity: "90%", fontSize: "2rem" }}> Conheça a </h1>
+              <h1 style={{ color: "var(--text-color)", fontSize: "2.4rem" }}> Magnarock </h1>
+            </div>
+          </div>
+          <div className={styles.mediasBanner}>
+          </div>
         </div>
       </div>
     </div>

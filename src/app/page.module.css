@@ -36,8 +36,38 @@
     width: 100%;
     height: 40rem;
     background-color: red;
-    padding-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bannersContainer{
+    width: 100%;
+    height: 65%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 .introducingBanner{
-
+    width: 100%;
+    height: 65%;
+    background-color: var(--background-dark-grey);
+    opacity: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.bannerLogoImage{
+    width: 9rem;
+    height: 9rem;
+    background-color: white;
+}
+.bannerTitle{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: baseline;
+    background-color: brown;
 }
