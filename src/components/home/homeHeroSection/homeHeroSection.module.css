@@ -50,4 +50,23 @@
 .mediasBanner{
     width: 100%;
     height: 20%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 3rem;
+}
+.mediaItem{
+    width: 4.3%;
+    height: 80%;
+}
+.mediaLink{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mediaImage{
+    width: 100%;
+    height: 100%;
 }

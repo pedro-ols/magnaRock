@@ -1,6 +1,32 @@
 import styles from './homeHeroSection.module.css';
 
 export default function HomeHeroSection() {
+    const medias = [
+        {
+            id: 1,
+            name: "Instagram",
+            url: "https://www.instagram.com/magnarockbanda/",
+            icon: "/images/instagram-logo.png"
+        },
+        {
+            id: 2,
+            name: "Facebook",
+            url: null,
+            icon: "/images/facebook-icon.png"
+        },
+        {
+            id: 3,
+            name: "YouTube",
+            url: null,
+            icon: "/images/youtube-icon.png"
+        },
+        {
+            id: 4,
+            name: "Tiktok",
+            url: null,
+            icon: "/images/tiktok-logo.png"
+        }
+    ]
     return (
         <section className={styles.homeHeroSection}>
             <div className={styles.bannersContainer}>
@@ -14,6 +40,13 @@ export default function HomeHeroSection() {
                     </div>
                 </div>
                 <div className={styles.mediasBanner}>
+                    {medias.filter(media => media.url !== null).map((media) => (
+                        <div className={styles.mediaItem} key={media.id}>
+                            <a href={media.url} target="blank" className={styles.mediaLink}>
+                                <img src={media.icon} alt={media.name} className={styles.mediaImage}/>
+                            </a>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
